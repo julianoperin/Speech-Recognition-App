@@ -47,8 +47,8 @@ function checkNumber(msg) {
   // Check number
   if (num === randomNum) {
     document.body.innerHTML = `
-      <h2 class="win">Congrats! You have guessed the number! <br><br>
-      It was ${num}</h2>
+      <h2 class="win">Congrats!!! You have guessed the number! <br><br>
+      It was "${num}"</h2>
       <div class="box-1">
         <div class="btn btn-one" id="play-again">
         <span id="play-again">PLAY AGAIN!</span>
